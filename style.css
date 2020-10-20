@@ -1,0 +1,219 @@
+
+
+body {
+  /*background-image: url(https://images.unsplash.com/photo-1566592790478-1d6102c6cc9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);*/
+  background-image: url(https://images.unsplash.com/photo-1547499417-61a435d27cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #DAA520;
+  font-family: 'roboto',Verdana, Geneva, sans-serif;
+  font-weight: lighter;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  padding: 20% 10%;
+  margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .body {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .body {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .body {
+    width: 300px;
+  }
+}
+
+body h1{
+	font-weight: 100;
+
+}
+
+
+}
+.Title {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+.hero {
+	width: 204px;
+	height: auto;
+	border-radius: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.title h1 {
+	display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    
+}
+
+
+.logos {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.linktree {
+	width: 55%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+.mox {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mox:hover {
+	transition: all .9s ease-out;
+	width: 80%;
+	height: auto;
+	display: inline-block;
+}
+
+
+.drawing_1 {
+	width: 20%;
+	height: auto;
+}
+
+.drawing_1:hover {
+	transition: all .5s ease-out;
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	
+}
+
+
+.drawing_2 {
+	width: 20%;
+	height: auto;
+}
+
+.drawing_2:hover {
+	transition: all .5s ease-out;
+	width: 35%;
+	height: auto;
+	display: inline-block;
+}
+
+.drawing_4 {
+	width: 20%;
+	height: auto;
+}
+
+.drawing_4:hover {
+	transition: all .5s ease-out;
+	width: 35%;
+	height: auto;
+	display: inline-block;
+}
+
+
+.drawings {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.title {
+  font-size: 25px;
+}
+
+.about_me {
+  font-size: 12px;
+}
+
+.my_projects {
+  font-size: 12px;
+}
+
+.start-up {
+  font-size: 12px;
+}
+
+.artwork {
+	font-size: 12px;
+}
+
+.social_media {
+  font-size: 12px;
+}
+
+ul.bullet {
+    list-style-type: none;
+	 display:inline;
+}
+
+
+.draw {
+  padding: 50px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.draw: hover {
+  transform: scale(1.5);
+}
+
+.footer {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.social_media {
+	width: 40%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0px auto;
+	font-size: 12px;
+
+}
+
+
+/*
+:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;*/
+
+
+
